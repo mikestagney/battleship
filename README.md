@@ -7,7 +7,7 @@ Enums used to keep the different ships types.
 
 Point class from Abstract Window Toolkit (awt) package used to store ship coordinates, instead of creating a custom class. 
 
-More complex than I first thought, since I had to keep track of two gameboard objects and display each differently to the respective players. Also it keeps track of the type of each ship but only tells the player the type after the ship has sunk.
+More complex than I first thought, since I track two gameboards and display each differently to the respective players. I also track each type of ship but let the player know it only after they sink the ship.
 
 ### Details
 
@@ -18,7 +18,7 @@ The directory contains 4 files:
 * Battleships.java - Class holds the ships name, length and coordinates
 * Player.java - Class that holds players info, which includes one Gameboard object and a Set containing 5 Battleship objects
 
-Third project created for JetBrains Academy Java Developer course - medium level project.
+Fourth project created for JetBrains Academy Java Developer course - medium level project.
 
 ### How to play
 
