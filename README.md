@@ -11,6 +11,13 @@ More complex than I first thought, since I had to keep track of two gameboard ob
 
 ### Details
 
+The directory contains 4 files: 
+
+* Main.java - Runs the game setup and main game loop
+* Gameboard.java - Class that holds the ships locations, checks for proximity to other ships and records shot results
+* Battleships.java - Class holds the ships name, length and coordinates
+* Player.java - Class that holds players info, which includes one Gameboard object and a Set containing 5 Battleship objects
+
 Third project created for JetBrains Academy Java Developer course - medium level project.
 
 ### How to play
