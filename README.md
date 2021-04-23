@@ -7,7 +7,7 @@ Enums used to keep the different ships types.
 
 Point class from Abstract Window Toolkit (awt) package used to store ship coordinates, instead of creating a custom class. 
 
-More complex than I first thought, since I had to keep track of two gameboards and display each differently to the respective players.
+More complex than I first thought, since I had to keep track of two gameboard objects and display each differently to the respective players. Also it keeps track of the type of each ship but only tells the player the type after the ship has sunk.
 
 ### Details
 
@@ -16,7 +16,8 @@ Third project created for JetBrains Academy Java Developer course - medium level
 ### How to play
 
 Players place their 5 ships of various lengths on a 10 X 10 grid.  There must be one space between the ships.
-Then players take turns trying to sink their opponants ships
+
+Players then take turns trying to sink all of their opponents ships. Players will see two boards.  The top one is their opponents board but only displaying the success or failure of the players shots.  X for a hit, M for a miss. The bottom board shows the players board, displaying all of the players ships and the results of the opponents shots.
 
 ### Sample input and output:
 
