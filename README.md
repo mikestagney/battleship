@@ -3,9 +3,11 @@ Command line game for two players, with each player placing 5 ships and trying t
 
 ## Things learned
 
-Used enums to keep type the different ships.
+Enums used to keep the different ships types.
 
+Point class from Abstract Window Toolkit (awt) package used to store ship coordinates, instead of creating a custom class. 
 
+More complex than I first thought, since I had to keep track of two gameboards and display each differently to the respective players.
 
 ### Details
 
